@@ -1,0 +1,41 @@
+:root {
+  --sidebar-width: 300px;
+  --sidebar-width-initial: 10vw;
+  --sm-spacing: 8px;
+  --md-spacing: 16px;
+  --lg-spacing: 24px;
+  --xl-spacing: 32px;
+  --xxl-spacing: 48px;
+  --border-radius: 6px;
+
+  /* light */
+  --light-background: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+  --light-checkbox: #ffef39;
+
+  /* dark */
+  --dark-background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  --dark-checkbox: #757575;
+
+  --background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  --checkbox: #292929;
+}
